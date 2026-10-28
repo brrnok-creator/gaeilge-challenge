@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#123b2a">
+<meta name="description" content="Practise Irish noun plurals, genitive singular and genitive plural. Keep your streak alive.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>Gaeilge — An Dúshlán</title>
+</head>
+<body>
+<header class="top">
+  <div class="brand-mark">G</div>
+  <div><div class="eyebrow">IRISH GRAMMAR TRAINER</div><h1>Gaeilge <span>· An Dúshlán</span></h1></div>
+  <button id="installBtn" class="install hidden" type="button">Install</button>
+</header>
+<main>
+  <section class="score-row" aria-label="Game scores">
+    <div class="score-card"><span class="score-label">CURRENT STREAK</span><strong id="streak">0</strong></div>
+    <div class="score-card"><span class="score-label">BEST STREAK</span><strong id="best">0</strong></div>
+    <div class="score-card"><span class="score-label">CORRECT TODAY</span><strong id="today">0</strong></div>
+  </section>
+  <section id="game" class="panel">
+    <div class="question-meta"><span id="round">QUESTION 1</span><span class="dot"></span><span>STRICT MODE</span></div>
+    <p class="instruction" id="task">Write the plural form</p>
+    <div class="word-card">
+      <span class="word-kicker">NOUN</span>
+      <h2 id="noun">teach</h2>
+      <p id="meaning">house</p>
+    </div>
+    <form id="answerForm" autocomplete="off">
+      <label for="answer" id="answerLabel">Your answer</label>
+      <input id="answer" name="answer" type="text" autocapitalize="none" spellcheck="false" placeholder="Type the Irish form…" required>
+      <p class="hint" id="hint">Include the article only when requested.</p>
+      <button class="primary" id="checkBtn" type="submit">Check answer <span>↗</span></button>
+    </form>
+    <div id="feedback" class="feedback hidden" aria-live="polite"></div>
+    <button id="nextBtn" class="primary hidden" type="button">Next noun <span>→</span></button>
+    <div id="gameOver" class="game-over hidden">
+      <div class="over-icon">✦</div><h2>Streak ended</h2>
+      <p id="overText">You got 0 in a row.</p>
+      <button id="restartBtn" class="primary" type="button">Try again <span>↻</span></button>
+    </div>
+  </section>
+  <section class="how"><span class="how-icon">i</span><p><strong>How to play</strong><br>Answer in Irish. The requested form and whether to include the article are shown for each question. One incorrect answer ends your streak. Capitalisation and extra spaces are ignored; spelling, fada marks and required articles must be exact.</p></section>
+  <footer><span>Made for Irish learners</span><a href="https://www.teanglann.ie/en/" target="_blank" rel="noreferrer">Check a word in Teanglann ↗</a></footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

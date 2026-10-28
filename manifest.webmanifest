@@ -1,0 +1,19 @@
+{
+  "name": "Gaeilge — An Dúshlán",
+  "short_name": "Gaeilge",
+  "description": "Irish noun grammar streak challenge",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f2",
+  "theme_color": "#123b2a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
