@@ -1,0 +1,16 @@
+{
+  "name": "Ginideach Bender",
+  "short_name": "Ginideach Bender",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8ed",
+  "theme_color": "#123d35",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
