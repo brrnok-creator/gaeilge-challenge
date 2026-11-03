@@ -1,19 +1,16 @@
 {
-  "name": "Gaeilge — An Dúshlán",
-  "short_name": "Gaeilge",
-  "description": "Irish noun grammar streak challenge",
+  "name": "Ginideach Bender",
+  "short_name": "Ginideach Bender",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f6f7f2",
-  "theme_color": "#123b2a",
-  "orientation": "portrait",
+  "background_color": "#fbf8ed",
+  "theme_color": "#123d35",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "./icon.svg",
       "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "type": "image/svg+xml"
     }
   ]
 }
